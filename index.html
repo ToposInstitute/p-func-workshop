@@ -1,0 +1,572 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+
+<HEAD>
+    <TITLE>Workshop on Polynomial Functors</TITLE>
+	<LINK REL="stylesheet" HREF="pfunk.css" TYPE="text/css">
+</HEAD>
+
+<BODY>
+
+
+<script language="JavaScript" type="text/JavaScript"> 
+<!-- 
+function swaptabs (showthis,hidethis) {
+  var style2 = document.getElementById(showthis).style;style2.display = "block"; 
+  var style3 = document.getElementById(hidethis).style;style3.display = "none";
+} 
+//--> 
+</script>
+
+<TABLE CLASS="frontpagetable" CELLSPACING="0" WIDTH="100%">
+    <TR>
+	<TD>
+	<FIGURE>
+	    <IMG ALIGN="left" width="330" SRC="photo.jpg" ALT="Photo">
+<!--		<figcaption>What is this picture anyway?</figcaption>-->
+	</FIGURE>
+	</TD>
+	<TD WIDTH="400">
+	    <H1>Workshop on Polynomial Functors</H1>
+	    At the <A HREF="http://topos.institute">Topos Institute</A> and 
+		online via Zoom<BR>
+	    March, 2021
+	</TD>
+    </TR>
+</TABLE>
+
+<HR>
+<P>
+
+
+Participants will learn background material and hear the latest
+progress on polynomial functors, monads, and comonads, their
+algebras and coalgebras, as well as on operads, parametric right
+adjoints, and cofunctors, with applications to combinatorics and
+higher categories, type theory and logic, containers, databases,
+decision processes, lenses, and dynamical systems.
+<P>Talks will be
+recorded for posterity.<P> (This may be the first in a series of such
+workshops.) 
+
+<HR>
+
+<H3>Speakers</H3>
+
+<UL>
+	<LI> <A HREF="http://www.cs.nott.ac.uk/~psztxa/">Thorsten Altenkirch</A>
+	<LI> <A HREF="https://www.andrew.cmu.edu/user/awodey/">Steve Awodey</A>
+	<LI> <A HREF="">Bryce Clarke</A>
+	<LI> <A HREF="https://www.cl.cam.ac.uk/~mpf23/">Marcelo Fiore</A>
+	<LI> <A HREF="http://web.science.mq.edu.au/~rgarner/">Richard Garner</A>
+	<LI> <A HREF="https://www.rug.nl/staff/h.h.hansen/">Helle Hvid Hansen</A>
+	<LI> <A HREF="https://www.ntnu.edu/employees/rune.haugseng">Rune Haugseng</A>
+	<LI> <A HREF="http://www.cs.ru.nl/B.Jacobs/">Bart Jacobs</A>
+	<LI> <A HREF="https://personal.cis.strath.ac.uk/fredrik.nordvall-forsberg/">Fredrik Nordvall Forsberg</A>
+	<LI> <A HREF="http://math.mit.edu/~dspivak/">David Spivak</A>
+<!--	<LI> <A HREF="http://mat.uab.cat/~kock/">Joachim Kock</A>-->
+	<LI> <A HREF="http://web.science.mq.edu.au/~street/">Ross Street</A>
+	<LI> <A HREF="https://www.ioc.ee/~tarmo/">Tarmo Uustalu</A>
+</UL>
+
+
+
+
+<H3>Organizers</H3>
+<A HREF="http://mat.uab.cat/~kock/">Joachim Kock</A> and <A HREF="http://math.mit.edu/~dspivak/">David Spivak</A>
+<BR>
+
+
+
+ <H3>Participants and registration</H3>
+ Anybody interested in participating is welcome.
+ If you would like to attend, please contact <A 
+ HREF="mailto:dspivak@gmail.com">David Spivak</A> or <A 
+ HREF="mailto:kock@mat.uab.cat">Joachim Kock</A>.
+ A zoom link will be sent out a few days before the workshop.
+<!--
+ | 
+ |  <P>
+ |  <B>For online workshops, perhaps there is no reason to display a list of participants:</B>
+ |  Joachim Kock,
+ |  David Spivak,
+ |  Richard Garner,
+ |  etc.
+-->
+
+<H3>Program</H3>
+The talks will take place in the following 5-hour window:
+<p>
+20h-01h+ UTC
+
+(Sydney (+1) 07h–12h;
+Barcelona 21h–02h;
+Boston 15h–20h;
+Berkeley 14h-19h, etc.)
+
+
+<P>
+CLICK ON THE 2-SIMPLEX TO SHOW OR HIDE THE ABSTRACT
+<P>
+
+
+<!--
+ | The suffixes exp and log are just for fun: exp for expand, and
+ | log for the opposite.  I hope it does not confuse myself.
+-->
+
+
+<TABLE>
+
+	
+	
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<TR>
+		<TD >&mdash; M O N D A Y &mdash;</TD>
+		<TD ></TD>
+	</TR>
+	
+	<TR>
+		<TD CLASS="time">Monday 19h45 UTC</TD>
+		<TD CLASS="topic">Welcome</TD>
+	</TR>
+	<!--
+	 | <TR>
+	 |     <TD CLASS="time">UTC</TD>
+	 |     <TD CLASS="time">Sydney +1</TD>
+	 |     <TD CLASS="time">Barelona</TD>
+	 |     <TD CLASS="time">Boston</TD>
+	 |     <TD CLASS="topic"></TD>
+	 | </TR>
+	 | <TR>
+	 |     <TD CLASS="time">19h45</TD>
+	 |     <TD CLASS="time">6h45</TD>
+	 |     <TD CLASS="time">20h45</TD>
+	 |     <TD CLASS="topic">14h45</TD>
+	 | </TR>
+	-->
+	
+<!-- speaker 1 --> 
+	<TR>
+		<TD CLASS="time">Monday 20h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="mon1log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('mon1exp','mon1log');">
+&#x25ba; First speaker: Title of the talk </a> </div> 
+
+<div id="mon1exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('mon1log','mon1exp');">
+&#x25bc; First speaker: Title of the talk </a>
+
+<P>Abstract: I will explain something really cool sspdfiuh oiuahsdoif 
+ahosiduhfo iuhas doiufhaoshdfo iuh oiaushdf oiuhao iushdf oiuahdfos uhas 
+odiufh oaiusdhfouha isudhfo iuahsd foiuho iuahsd foiuha soidufhao ushdf 
+oiaushdf oiuhads oifuh oiaushdf oiuahsdfo iuhao isudhfo iaushdf 
+oiaushdfouhio uahsdoifuha sudhf oiuh 
+</div>
+		</TD>
+	</TR>
+
+<!-- speaker 2 --> 	
+	<TR>
+		<TD CLASS="time">Monday 21h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="mon2log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('mon2exp','mon2log');">
+&#x25ba; Second speaker: Title of the talk </a> </div> 
+
+<div id="mon2exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('mon2log','mon2exp');">
+&#x25bc; Second speaker: Title of the talk </a>
+
+<P>Abstract: and so on
+</div>
+		</TD>
+	</TR>
+<!-- BREAK -->
+	<TR>
+		<TD CLASS="time"> Monday 22h00 UTC</TD>
+		<TD CLASS="topic"> Break</TD>
+	</TR>
+
+<!-- speaker 3 --> 
+	<TR>
+		<TD CLASS="time">Monday 22h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="mon3log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('mon3exp','mon3log');">
+&#x25ba; Third speaker: Title of the talk </a> </div> 
+
+<div id="mon3exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('mon3log','mon3exp');">
+&#x25bc; Third speaker: Title of the talk </a>
+
+<P>Abstract: TBA
+</div>
+		</TD>
+	</TR>
+<!-- speaker 4 --> 
+	<TR>
+		<TD CLASS="time">Monday 23h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="mon4log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('mon4exp','mon4log');">
+&#x25ba; Fourth speaker: Title of the talk </a> </div> 
+
+<div id="mon4exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('mon4log','mon4exp');">
+&#x25bc; Fourth speaker: Title of the talk </a>
+
+<P>Abstract: to be announced
+</div>
+		</TD>
+	</TR>
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<TR>
+		<TD >&mdash; T U E S D A Y &mdash;</TD>
+		<TD ></TD>
+	</TR>
+	
+	
+<!-- speaker 1 --> 
+	<TR>
+		<TD CLASS="time">Tuesday 20h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="tue1log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('tue1exp','tue1log');">
+&#x25ba; First speaker: Title of the talk </a> </div> 
+
+<div id="tue1exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('tue1log','tue1exp');">
+&#x25bc; First speaker: Title of the talk </a>
+
+<P>Abstract: I will explain something really cool sspdfiuh oiuahsdoif 
+ahosiduhfo iuhas doiufhaoshdfo iuh oiaushdf oiuhao iushdf oiuahdfos uhas 
+odiufh oaiusdhfouha isudhfo iuahsd foiuho iuahsd foiuha soidufhao ushdf 
+oiaushdf oiuhads oifuh oiaushdf oiuahsdfo iuhao isudhfo iaushdf 
+oiaushdfouhio uahsdoifuha sudhf oiuh 
+</div>
+		</TD>
+	</TR>
+
+<!-- speaker 2 --> 	
+	<TR>
+		<TD CLASS="time">Tuesday 21h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="tue2log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('tue2exp','tue2log');">
+&#x25ba; Second speaker: Title of the talk </a> </div> 
+
+<div id="tue2exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('tue2log','tue2exp');">
+&#x25bc; Second speaker: Title of the talk </a>
+
+<P>Abstract: and so on
+</div>
+		</TD>
+	</TR>
+<!-- BREAK -->
+	<TR>
+		<TD CLASS="time"> Tuesday 22h00 UTC</TD>
+		<TD CLASS="topic"> Break</TD>
+	</TR>
+
+<!-- speaker 3 --> 
+	<TR>
+		<TD CLASS="time">Tuesday 22h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="tue3log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('tue3exp','tue3log');">
+&#x25ba; Third speaker: Title of the talk </a> </div> 
+
+<div id="tue3exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('tue3log','tue3exp');">
+&#x25bc; Third speaker: Title of the talk </a>
+
+<P>Abstract: TBA
+</div>
+		</TD>
+	</TR>
+<!-- speaker 4 --> 
+	<TR>
+		<TD CLASS="time">Tuesday 23h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="tue4log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('tue4exp','tue4log');">
+&#x25ba; Fourth speaker: Title of the talk </a> </div> 
+
+<div id="tue4exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('tue4log','tue4exp');">
+&#x25bc; Fourth speaker: Title of the talk </a>
+
+<P>Abstract: to be announced
+</div>
+		</TD>
+	</TR>
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<TR>
+		<TD >&mdash; W E D N E S D A Y &mdash;</TD>
+		<TD ></TD>
+	</TR>
+	
+<!-- speaker 1 --> 
+	<TR>
+		<TD CLASS="time">Wednesday 20h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="wed1log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('wed1exp','wed1log');">
+&#x25ba; First speaker: Title of the talk </a> </div> 
+
+<div id="wed1exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('wed1log','wed1exp');">
+&#x25bc; First speaker: Title of the talk </a>
+
+<P>Abstract: I will explain something really cool sspdfiuh oiuahsdoif 
+ahosiduhfo iuhas doiufhaoshdfo iuh oiaushdf oiuhao iushdf oiuahdfos uhas 
+odiufh oaiusdhfouha isudhfo iuahsd foiuho iuahsd foiuha soidufhao ushdf 
+oiaushdf oiuhads oifuh oiaushdf oiuahsdfo iuhao isudhfo iaushdf 
+oiaushdfouhio uahsdoifuha sudhf oiuh 
+</div>
+		</TD>
+	</TR>
+
+<!-- speaker 2 --> 	
+	<TR>
+		<TD CLASS="time">Wednesday 21h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="wed2log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('wed2exp','wed2log');">
+&#x25ba; Second speaker: Title of the talk </a> </div> 
+
+<div id="wed2exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('wed2log','wed2exp');">
+&#x25bc; Second speaker: Title of the talk </a>
+
+<P>Abstract: and so on
+</div>
+		</TD>
+	</TR>
+<!-- BREAK -->
+	<TR>
+		<TD CLASS="time"> Wednesday 22h00 UTC</TD>
+		<TD CLASS="topic"> Break</TD>
+	</TR>
+
+<!-- speaker 3 --> 
+	<TR>
+		<TD CLASS="time">Wednesday 22h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="wed3log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('wed3exp','wed3log');">
+&#x25ba; Third speaker: Title of the talk </a> </div> 
+
+<div id="wed3exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('wed3log','wed3exp');">
+&#x25bc; Third speaker: Title of the talk </a>
+
+<P>Abstract: TBA
+</div>
+		</TD>
+	</TR>
+<!-- speaker 4 --> 
+	<TR>
+		<TD CLASS="time">Wednesday 23h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="wed4log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('wed4exp','wed4log');">
+&#x25ba; Fourth speaker: Title of the talk </a> </div> 
+
+<div id="wed4exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('wed4log','wed4exp');">
+&#x25bc; Fourth speaker: Title of the talk </a>
+
+<P>Abstract: to be announced
+</div>
+		</TD>
+	</TR>
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<TR>
+		<TD >&mdash; T H U R S D A Y &mdash;</TD>
+		<TD ></TD>
+	</TR>
+		
+<!-- speaker 1 --> 
+	<TR>
+		<TD CLASS="time">Thursday 20h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="thu1log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('thu1exp','thu1log');">
+&#x25ba; First speaker: Title of the talk </a> </div> 
+
+<div id="thu1exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('thu1log','thu1exp');">
+&#x25bc; First speaker: Title of the talk </a>
+
+<P>Abstract: I will explain something really cool sspdfiuh oiuahsdoif 
+ahosiduhfo iuhas doiufhaoshdfo iuh oiaushdf oiuhao iushdf oiuahdfos uhas 
+odiufh oaiusdhfouha isudhfo iuahsd foiuho iuahsd foiuha soidufhao ushdf 
+oiaushdf oiuhads oifuh oiaushdf oiuahsdfo iuhao isudhfo iaushdf 
+oiaushdfouhio uahsdoifuha sudhf oiuh 
+</div>
+		</TD>
+	</TR>
+
+<!-- speaker 2 --> 	
+	<TR>
+		<TD CLASS="time">Thursday 21h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="thu2log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('thu2exp','thu2log');">
+&#x25ba; Second speaker: Title of the talk </a> </div> 
+
+<div id="thu2exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('thu2log','thu2exp');">
+&#x25bc; Second speaker: Title of the talk </a>
+
+<P>Abstract: and so on
+</div>
+		</TD>
+	</TR>
+<!-- BREAK -->
+	<TR>
+		<TD CLASS="time"> Thursday 22h00 UTC</TD>
+		<TD CLASS="topic"> Break</TD>
+	</TR>
+
+<!-- speaker 3 --> 
+	<TR>
+		<TD CLASS="time">Thursday 22h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="thu3log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('thu3exp','thu3log');">
+&#x25ba; Third speaker: Title of the talk </a> </div> 
+
+<div id="thu3exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('thu3log','thu3exp');">
+&#x25bc; Third speaker: Title of the talk </a>
+
+<P>Abstract: TBA
+</div>
+		</TD>
+	</TR>
+<!-- speaker 4 --> 
+	<TR>
+		<TD CLASS="time">Thursday 23h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="thu4log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('thu4exp','thu4log');">
+&#x25ba; Fourth speaker: Title of the talk </a> </div> 
+
+<div id="thu4exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('thu4log','thu4exp');">
+&#x25bc; Fourth speaker: Title of the talk </a>
+
+<P>Abstract: to be announced
+</div>
+		</TD>
+	</TR>
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<TR>
+		<TD >&mdash; F R I D A Y &mdash;</TD>
+		<TD ></TD>
+	</TR>
+		
+<!-- speaker 1 --> 
+	<TR>
+		<TD CLASS="time">Friday 20h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="fri1log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('fri1exp','fri1log');">
+&#x25ba; First speaker: Title of the talk </a> </div> 
+
+<div id="fri1exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('fri1log','fri1exp');">
+&#x25bc; First speaker: Title of the talk </a>
+
+<P>Abstract: I will explain something really cool sspdfiuh oiuahsdoif 
+ahosiduhfo iuhas doiufhaoshdfo iuh oiaushdf oiuhao iushdf oiuahdfos uhas 
+odiufh oaiusdhfouha isudhfo iuahsd foiuho iuahsd foiuha soidufhao ushdf 
+oiaushdf oiuhads oifuh oiaushdf oiuahsdfo iuhao isudhfo iaushdf 
+oiaushdfouhio uahsdoifuha sudhf oiuh 
+</div>
+		</TD>
+	</TR>
+
+<!-- speaker 2 --> 	
+	<TR>
+		<TD CLASS="time">Friday 21h00 UTC</TD>
+		<TD CLASS="topic">
+<div id="fri2log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('fri2exp','fri2log');">
+&#x25ba; Second speaker: Title of the talk </a> </div> 
+
+<div id="fri2exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('fri2log','fri2exp');">
+&#x25bc; Second speaker: Title of the talk </a>
+
+<P>Abstract: and so on
+</div>
+		</TD>
+	</TR>
+<!-- BREAK -->
+	<TR>
+		<TD CLASS="time"> Friday 22h00 UTC</TD>
+		<TD CLASS="topic"> Break</TD>
+	</TR>
+
+<!-- speaker 3 --> 
+	<TR>
+		<TD CLASS="time">Friday 22h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="fri3log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('fri3exp','fri3log');">
+&#x25ba; Third speaker: Title of the talk </a> </div> 
+
+<div id="fri3exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('fri3log','fri3exp');">
+&#x25bc; Third speaker: Title of the talk </a>
+
+<P>Abstract: TBA
+</div>
+		</TD>
+	</TR>
+<!-- speaker 4 --> 
+	<TR>
+		<TD CLASS="time">Friday 23h30 UTC</TD>
+		<TD CLASS="topic">
+<div id="fri4log" style="DISPLAY: block"> <a 
+href="javascript:swaptabs('fri4exp','fri4log');">
+&#x25ba; Fourth speaker: Title of the talk </a> </div> 
+
+<div id="fri4exp" style="DISPLAY: none"> <a 
+href="javascript:swaptabs('fri4log','fri4exp');">
+&#x25bc; Fourth speaker: Title of the talk </a>
+
+<P>Abstract: to be announced
+</div>
+		</TD>
+	</TR>
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+	
+	
+	</TABLE>
+
+
+
+<HR>
+<SMALL>
+    Last updated: 2020-12-29.  
+</SMALL>
+
+</BODY>
+
+</HTML>
