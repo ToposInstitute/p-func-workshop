@@ -1,1 +1,93 @@
-BODY {    max-width: 600pt;    background-color: #F5DEB3 ;    color:black;    font-family: Georgia, Lucida Grande, Helvetica, sans-serif;    font-size:12pt;    padding: 5pt;  /* 	line-height: 1; */}h3 {  letter-spacing: 5px;}div {    padding-bottom: 10px;}TD.time {    vertical-align:top;    min-width:190px;}TD.topic {    vertical-align:top;    max-width:600px} figure {  float: center;  text-align: center;/*   font-style: italic; */  font-size: smaller;  text-indent: 0;/*   border: thin silver solid; */  margin: 0.5em;  padding: 0.5em;}TABLE.frontpagetable {    font-size:100%;    max-width: 100%;    color:black;    vertical-align: baseline;    margin: 0pt;}TABLE.speakerstable {    font-size:100%;    max-width: 100%;    color:black;	/* 	 * vertical-align: top;	 */    padding: 0;    border: 0;    margin: 0pt;    padding: 0em;	text-align: left;	border-collapse: colapse; border-spacing:0em;}TABLE.timetable {	border: 1px solid black; 	border-spacing: 20px 0;	border-collapse: seperate;/* 	padding: 1px; */    font-size:100%;    max-width: 100%;    color:black;    vertical-align: baseline;	text-align: left;    margin: 3pt;/* 	border-bottom: 1px solid #000; */}TABLE.timetable, th {padding: 5px 0;}th { border-bottom: 1px solid #000;}th.leftcol { border-right: 2px solid;}td.leftcol { border-right: 2px solid;}UL LI {    padding: 3px;}
+BODY {
+    max-width: 600pt;
+    background-color: #F5DEB3 ;
+    color:black;
+    font-family: Georgia, Lucida Grande, Helvetica, sans-serif;
+    font-size:12pt;
+    padding: 5pt;  
+/* 	line-height: 1; */
+}
+
+
+
+h3 {
+  letter-spacing: 5px;
+}
+
+div {
+    padding-bottom: 10px;
+}
+
+TD.time {
+    vertical-align:top;
+    min-width:190px;
+}
+
+TD.topic {
+    vertical-align:top;
+    max-width:600px
+}
+
+ 
+figure {
+  float: center;
+  text-align: center;
+/*   font-style: italic; */
+  font-size: smaller;
+  text-indent: 0;
+/*   border: thin silver solid; */
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+TABLE.frontpagetable {
+    font-size:100%;
+    max-width: 100%;
+    color:black;
+    vertical-align: baseline;
+    margin: 0pt;
+}
+
+TABLE.speakerstable {
+    font-size:100%;
+    max-width: 100%;
+    color:black;
+    /* vertical-align: top; */
+    padding: 0;
+    border: 0;
+    margin: 0pt;
+    padding: 0em;
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing:0em;
+}
+
+
+TABLE.timetable {
+	border: 1px solid black;
+/* 	padding: 1px; */
+
+    font-size:100%;
+    max-width: 100%;
+    color:black;
+    vertical-align: baseline;
+    text-align: left;
+    margin: 3pt;
+/* 	border-bottom: 1px solid #000; */
+}
+
+th { border-bottom: 1px solid #000;}
+
+TABLE.timetable TH:nth-child(-n+2),
+TABLE.timetable TD:nth-child(-n+2) {
+  padding-left: 10px;
+}
+
+TABLE.timetable TH:nth-child(1),
+TABLE.timetable TD:nth-child(1) {
+  border-right: 2px solid;
+}
+
+UL LI {
+    padding: 3px;
+}
