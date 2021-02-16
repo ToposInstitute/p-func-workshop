@@ -76,10 +76,17 @@ TABLE.timetable {
 /* 	border-bottom: 1px solid #000; */
 }
 
-TABLE.timetable, th {padding: 5px 0;}
 th { border-bottom: 1px solid #000;}
-th.leftcol { border-right: 2px solid;}
-td.leftcol { border-right: 2px solid;}
+
+TABLE.timetable TH:nth-child(-n+2),
+TABLE.timetable TD:nth-child(-n+2) {
+  padding-left: 10px;
+}
+
+TABLE.timetable TH:nth-child(1),
+TABLE.timetable TD:nth-child(1) {
+  border-right: 2px solid;
+}
 
 UL LI {
     padding: 3px;
