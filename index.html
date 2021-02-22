@@ -109,19 +109,23 @@ workshops.)
 	as a Category with Families (CwF). 
 In [1], it was shown that the notion of a CwF can conveniently be 
 reformulated as a so-called "natural model", 
-which is simply a representable natural transformation $p : U. \to U$ over an 
-arbitrary index category $C$ of "contexts".  
+which is simply a representable natural transformation p : U. &rarr;
+U over an 
+arbitrary index category C of "contexts".  
 Such a model of type theory admits dependent sums and a terminal type
 just if it is a (pseudo-)monad, 
-when regarded as a polynomial endofunctor $P : \hat{C} \to\hat{C}$ on
-the category of presheaves on $C$.  
-Moreover, dependent products correspond to a $P$-algebra structure.
+when regarded as a polynomial endofunctor P : &Ccirc;
+ &rarr;
+ &Ccirc;
+  on
+the category of presheaves on C.  
+Moreover, dependent products correspond to a P-algebra structure.
 The logical Propositions-as-Types conception is then modelled by a 
 retraction of polynomial monads 
 relating the type theoretic and the topos-theoretic interpretations 
 of predicate logic. 
 <P>
-[1] Awodey, S., Natural models of homotopy type theory, Math.Stru.Comp.Sci., 2018.
+[1] Awodey, S., Natural models of homotopy type theory, Math. Stru. Comp. Sci., 2018.
 	</div>
     </TD>
     </TR>
@@ -393,7 +397,22 @@ This is joint work with Georgi Nakov.
 	<a href="javascript:swaptabs('sojakovalog','sojakovaexp');">
 	&#x25bc; <EM>Initial algebras in homotopy type theory</EM> </a>
 
-	<BR>Abstract: TBA
+	<BR>Abstract: Initial algebras of polynomial endofunctors are important 
+	in computer science because they precisely characterize inductive datatypes
+	&mdash;
+	in the presence of extensional equality. If the equality is intensional,
+	as is most often the case with modern formal tools, this correspondence 
+	is known to break down since we can no longer prove the uniqueness of 
+	recursively-defined functions.
+    <P>
+Homotopy type theory fixes this drawback &mdash;
+and then some. Inductive types in homotopy type theory enjoy a correspondence
+with algebras that are homotopy-initial: by definition, the space of
+morphisms from a homotopy-initial algebra to any other algebra is 
+contractible. Going further, we can show that the space of homotopy-initial
+algebras for polynomial endofunctors is itself contractible, and hence
+that any two homotopy-initial algebras automatically satisfy the same 
+type-theoretic properties (equality a la Leibniz).
 	</div>
     </TD>
     </TR>
@@ -570,7 +589,7 @@ Berkeley 12:00&ndash;16:00, etc.)
 
 <HR>
 <SMALL>
-    Last update: 2021-02-21.  
+    Last update: 2021-02-22.  
 </SMALL>
 
 </BODY>
