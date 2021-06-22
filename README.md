@@ -1,1 +1,1 @@
-# P-func-workshop
+# p-func-workshop
