@@ -1,0 +1,52 @@
+
+André Joyal <joyal.andre@uqam.ca>,
+Bart Jacobs <bart@cs.ru.nl>,
+Bryce Clarke <bryce.clarke1@students.mq.edu.au>,
+David Gepner <djgepner@gmail.com>,
+Fredrik Nordvall Forsberg <fredrik.nordvall-forsberg@strath.ac.uk>,
+Helle Hvid Hansen <h.h.hansen@rug.nl>,
+Kristina Sojakova <sojakova.kristina@gmail.com>,
+Marcelo Fiore <Marcelo.Fiore@cl.cam.ac.uk>,
+Michael Batanin <bataninmichael@gmail.com>,
+Richard Garner <richard.garner@mq.edu.au>,
+Ross Street <ross.street@mq.edu.au>,
+Rune Haugseng <rune.haugseng@gmail.com>,
+Steve Awodey <awodey@cmu.edu>,
+Tarmo Uustalu <tarmo@cs.ioc.ee>,
+Thorsten Altenkirch <Thorsten.Altenkirch@nottingham.ac.uk>,
+Joachim Kock <kock@mat.uab.cat>,
+David Spivak <david@topos.institute>,
+
+
+Dear friends,
+
+we are planning a second Workshop on Polynomial Functors for
+the week March 14-18 2022, online. The next step in the
+planning is to recruit speakers. Since we were very happy
+with the speakers last time, we write to you all to ask if
+you have suggestions for speakers. Maybe you have students
+working on polynomial functors, maybe you have exciting news
+to talk about yourself, or maybe you just know about
+interesting recent developments. We were thinking of
+repeating the format from last time, with 16 speakers, so we
+cannot promise to accommodate all suggestions, but the more
+suggestions we get, the better chances we have to put
+together a varied and balanced program! If you have other
+suggestions than speakers, we are also eager to hear them.
+
+We are considering the possibility of involving the
+Eilenberg-Mac Lane polynomial functor community, but we
+think it is only a good idea if we have some indication of
+connections between the two topics. We have not been able to
+spot any ourselves, but maybe we didn't invest time enough
+in it. If you know about any connections, or if you think it
+would be a good idea to involve these people, please speak
+up.
+
+In any case we hope you will participate! (We apologize for
+fixing the dates before contacting speakers and former
+speakers, but the keep-it-open-as-long-as-possible policy
+from last time was a bit time consuming for the organizers.)
+
+Best regards,
+David and Joachim.
