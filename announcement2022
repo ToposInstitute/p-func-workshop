@@ -1,7 +1,7 @@
 
 
 
-WORKSHOP ON POLYNOMIAL FUNCTORS
+2022 WORKSHOP ON POLYNOMIAL FUNCTORS
 
 
 
@@ -12,32 +12,33 @@ At the Topos Institute and online via Zoom
 https://topos.site/p-func-workshop/
 
 
-Participants will learn background material and hear the latest progress on polynomial functors, monads, and comonads, their algebras and coalgebras, as well as on operads, parametric right adjoints, and cofunctors, with applications to combinatorics, database theory, dynamical systems, higher category theory, logic, and type theory.
+Participants will learn background material and hear the latest progress on polynomial functors. The main topic is the notion of polynomial functors in locally cartesian closed categories, as employed in logic and type theory (the theme of the 2021 Workshop on Polynomial Functors). However we also include a tutorial and talks on the notion of polynomial functors in the sense of Eilenberg and Mac Lane, hoping to uncover connections between these two notions.
 
 Talks will be recorded for posterity.
 
-(This may be the first in a series of such workshops.)
+
 
 
 Speakers
 --------
 
-Thorsten Altenkirch
-Steve Awodey
-Michael Batanin
-Bryce Clarke
-Marcelo Fiore
-Richard Garner
-David Gepner
-Helle Hvid Hansen
-Rune Haugseng
-Bart Jacobs
-André Joyal
+Steve Awodey	
+Kristine Bauer	
+Pierre-Louis Curien
+Elden Elmanto	
+Marcelo Fiore	
+Nicola Gambino	
+Brenda Johnson	
+Sean Moss
 Fredrik Nordvall Forsberg
-Kristina Sojakova
+Valéria de Paiva	
+Exequiel Rivas
+Brandon Shapiro	
 David Spivak
-Ross Street
-Tarmo Uustalu 
+Dima Szamozvancev
+Paul Taylor	
+Todd Trimble
+Christine Vespa
 
 
 Organizers
@@ -51,7 +52,7 @@ Participation
 
 Anyone interested in participating is welcome. If you would like to attend, please fill out the online form
 
-   https://forms.gle/44bfnbE2Yfgqxz7H9
+   https://forms.gle/nbpNAo1fQ3kkHynRA
 
 A zoom link will be sent out to registered participants a few days before the workshop.
 
@@ -63,6 +64,6 @@ Program
 
 The talks will take place in the following 4-hour window:
 
-20:00h–00:00 UTC
+14:00 – 18:00 UTC
 
-(Sydney (+1) 07:00–11:00; Barcelona 21:00–01:00+; Boston 15:00–19:00; Berkeley 12:00–16:00, etc.)
+Tokyo 23:00–03:00 (+1); Barcelona 15:00–19:00; UK 14:00–18:00; US East Coast 10:00–14:00; US West Coast 07:00–11:00.
