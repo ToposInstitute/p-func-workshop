@@ -8,7 +8,6 @@ BODY {
 /* 	line-height: 1; */
 }
 
-
 h3 {
   letter-spacing: 5px;
 }
@@ -26,7 +25,6 @@ TD.topic {
     vertical-align:top;
     max-width:600px
 }
-
  
 figure {
   float: center;
@@ -60,7 +58,6 @@ TABLE.speakerstable {
     border-collapse: collapse;
     border-spacing:0em;
 }
-
 
 TABLE.timetable {
 	border: 1px solid black;
