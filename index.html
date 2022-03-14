@@ -69,7 +69,7 @@ Polynomial Functors</A> was held in March 2021.
 	-->
 	<br>Abstract: This 2-lecture tutorial will explain the connection between dependent type theory and polynomial functors first explored in [1].  
 The first lecture presents the basic notion of a "natural model" of type theory, a functorial reformulation of the concept of a "category with families", capturing the syntax of dependent type theory.  We show how the usual type theoretic rules of dependent sums and products correspond to the structure of a polynomial monad on the associated natural model, and an algebra for that monad.  In part 2 we show what it means to add identity types and universes to the type theory, consider the relation between natural models and Joyal's "tribes", and state some open problems.<br>
-
+<br><br>
 [1] S. Awodey, Natural models of homotopy type theory, Mathematical Structures in Computer Science 28(2), pp. 241–286 (2018)
 	</div>
     </TD>
@@ -209,6 +209,10 @@ formalizing higher dimensional structures using this approach.
 	-->
 	<br>
 	Abstract:
+	The abstract syntax of a formal language is the essential syntactical structure reflecting the semantic import of the language phrases. Abstract syntax has both synthetic and analytic aspects: the former concerns the constructors needed to form phrases, the latter the destructors needed to take them apart. The categorical algebraic point of view regards abstract syntax as an initial algebra: the structure map is synthetic syntax, its inverse is analytic syntax. Initiality provides compositional semantics (as the unique homomorphism to a model) by structural recursion, with an associated principle of structural induction.
+	<br><br>
+
+Specifications of language phrases are typically given syntactically by means of signatures or, more generally, typing rules. In this talk, I will explain my thesis: (i) that these are notation for polynomial diagrams, and (ii) that abstract syntax arises from the associated polynomial endofunctors by free constructions. I will do so by considering a variety of language features of increasing complexity: mono and multi sorted algebraic term structure, simple and polymorphic type structure (with variable-binding and parametrised-metavariable term structure), and cartesian and/or linear context structure. The mathematical development naturally leads to the consideration of two kinds of polynomial functors: the traditional one between slice categories, arising from locally cartesian closed structure, and another one between presheaf categories, arising from essential geometric morphisms. The former polynomial functors (and their initial algebras) have a type-theoretic rendering as indexed containers (and general trees) that is directly implementable in dependently-typed proof assistants. This is not so for the latter polynomial functors and I will present an approach to bridging this gap via adjoint modalities.
 	</div>
     </TD>
     </TR>
@@ -234,7 +238,7 @@ formalizing higher dimensional structures using this approach.
 	rediscovered independently this operation in the context of symmetric 
 	sequences (as part of their work on Boardman-Vogt tensor product of bimodules) 
 	and named it matrix multiplication. 
-
+<br><br>
 	In this talk, based on joint work in progress with Richard Garner and 
 	Christina Vasilakopoulou, we extend the matrix multiplication from symmetric
 	sequences to coloured symmetric sequences and show that it determines an
@@ -315,7 +319,7 @@ the same!  Representing algebraic data types by polynomial functors, I
 will explain how this is the case, and show that this notion of
 derivative of polynomial functors gives rise to a Cartesian
 differential category in the sense of Blute, Cockett and Seely.<br><br>
-
+<br><br>
 This is joint work with Conor McBride and Neil Ghani.
 	</div>
     </TD>
@@ -416,35 +420,35 @@ and arrows.
 polynomial functors in the 1980s were Diers' "multiadjoints",
 Berry's initial investigations of "sequential programs"
 and Girard's adaptation of this to the semantics of "System F".
-<BR>
+<BR><br>
 Using Berry's term "stable domain theory", Lamarche and I
 constructed numerous cartesian closed (bi)categories of
 categories and pullback-preserving functors, looking for
 better models of polymorphism.
-<BR>
+<BR><br>
 In these, the order between maps is not pointwise but the
 "Berry order"; for categories the naturality squares must
 be pullbacks, so these were called "cartesian transformations".
-<BR>
+<BR><br>
 The function-spaces turn out to have a simpler representation
 than in "Scott" domain theory.  This uses what Berry and
 Girard called the "trace", which consists of the multiple
 universal (unit) maps from Diers' theory, which I called
 "candidates".
-<BR>
+<BR><br>
 The one theorem that I shall prove is that the trace
 provides a factorisation system for stable functors.
 The "epis" are functors with (single) left adjoints and
 the "monos" are those which are equivalences on slices.
 The latter are essentially fibrations whose fibres are
 groupoids.
-<BR>
+<BR><br>
 The different "flavours" of stable domains are measured by
 the properties of their slices (including familiar notions
 from categorical logic for no obvious reason) and the
 complexity of the "multicolimits" - both their cardinality
 and the kinds of groups that are involved.
-<BR>
+<BR><br>
 A lot of this material was not written up properly, so
 there there is a goldmine waiting for younger researchers
 to develop.   For example, Gabriel-Ulmer duality between
